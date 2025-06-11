@@ -1,0 +1,8 @@
+username,password
+student,Password123
+invaliduser,Password123
+student,wrongpassword
+,Password123
+student,
+test@user,Password123
+admin,admin123 
