@@ -4,7 +4,7 @@ test.use({ headless: true });
 
 test.describe('Login Functionality Tests', () => {
   test.beforeEach(async ({ page }) => {
-    // Navigate to the login page before each test
+    // Navigate to the login page before each test Pus
     await page.goto('https://practicetestautomation.com/practice-test-login/');
   });
 
