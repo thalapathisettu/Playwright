@@ -4,7 +4,7 @@ const fs = require('fs');
 const { parse } = require('csv-parse/sync');
 
 // Configure tests to run in headed mode
-test.use({ headless: false });
+test.use({ headless: true });
 
 // Read and parse the CSV file
 const records = parse(fs.readFileSync('./login_data.csv'), {

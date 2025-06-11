@@ -1,6 +1,6 @@
 // login.spec.js
 const { test, expect } = require('@playwright/test');
-test.use({ headless: false });
+test.use({ headless: true });
 
 test.describe('Login Functionality Tests', () => {
   test.beforeEach(async ({ page }) => {
