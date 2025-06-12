@@ -12,7 +12,7 @@ test.describe('Login Functionality Tests', () => {
     // Fill in username
     await page.fill('#username', 'student');
 
-    // Fill in password
+    // Fill in password Field
     await page.fill('#password', 'Password123');
 
     // Click the Submit button
