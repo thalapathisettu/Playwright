@@ -18,7 +18,7 @@ test.describe('Login Functionality Tests', () => {
     // Click the Submit button
     await page.click('#submit');
 
-    // Verify that login was successful
+    // Verify that login was successful test
     await expect(page.locator('h1')).toHaveText('Logged In Successfully');
     await expect(page.locator('text=Log out')).toBeVisible();
   });
